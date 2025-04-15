@@ -15,6 +15,14 @@ namespace _221_Globa
     
     public partial class Entities : DbContext
     {
+        public static Entities _context;
+
+        public static Entities GetContext()
+        {
+            if(_context == null) _context = new Entities();
+            return _context;
+        }
+
         public Entities()
             : base("name=Entities")
         {

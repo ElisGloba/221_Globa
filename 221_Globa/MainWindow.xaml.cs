@@ -53,7 +53,7 @@ namespace _221_Globa
         private void MainFrame_Navigated(object sender, NavigationEventArgs e)
         {
             if (!(e.Content is Page page)) return;
-            this.Title = $"ProjectByBezmaternykh - {page.Title}";
+            this.Title = $"ProjectByGloba - {page.Title}";
 
             if (page is Pages.AuthPage)
                 But_return.Visibility = Visibility.Hidden;

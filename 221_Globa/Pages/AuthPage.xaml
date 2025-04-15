@@ -25,7 +25,7 @@
         <TextBlock Text=" Пароль" Padding="2,5,0,0" Foreground="Gray" x:Name="txtHintPassword" Margin="22,0,0,70" VerticalAlignment="Bottom" Width="120" Grid.Row="0" HorizontalAlignment="Left" Grid.Column="1"/>
         <PasswordBox x:Name="PasswordBox" Grid.Row="0" Padding="5" Background="Transparent" Margin="22,0,0,80" VerticalAlignment="Bottom" Height="30" ToolTip="Введите пароль" PasswordChanged="TextBoxPassword_Changed" HorizontalAlignment="Left" Width="120" Grid.Column="1"/>
         <Button x:Name="ButtonEnter" Grid.Row="1" Content="Вход" HorizontalAlignment="Center" VerticalAlignment="Top"  Margin="0,0,0,0" Grid.ColumnSpan="2" ToolTip="Нажмите для входа" Click="ButtonEnter_Click"/>
-        <Button x:Name="ButtonSignIn" Grid.Row="1" Content="Регистрация"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,60,0,0" Grid.ColumnSpan="2" ToolTip="Нажмите для регистрации" />
+        <Button x:Name="ButtonSignIn" Grid.Row="1" Content="Регистрация"  HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,60,0,0" Grid.ColumnSpan="2" ToolTip="Нажмите для регистрации" Click="ButtonSignIn_Click" />
 
     </Grid>
 </Page>
